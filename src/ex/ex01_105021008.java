@@ -7,10 +7,25 @@ package ex;
  * Author: 1050210XX 周永振老師
  */
 
-public class ex01_1050210XX {
-
+import java.util.Scanner;
+public class ex01_105021008 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		Scanner scn = new Scanner(System.in);
+		int n = scn.nextInt();
+		float p=0.5f;
+		double d = 0d;
+		if(n<600){
+			d=n*p;
+			System.out.print(d);
+		}else{
+			if(n<1200){
+				d=n*p*0.9;
+				System.out.print(d);
+		}else{d=n*p*0.79;
+		System.out.print(d);
+			}
+		}
 
 	}
 
